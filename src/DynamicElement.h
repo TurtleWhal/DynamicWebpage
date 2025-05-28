@@ -100,6 +100,7 @@ public:
             if (events[i].event == event && events[i].callback)
             {
                 Serial.printf("Triggering event %s for element %s\n", event.c_str(), htmlid.c_str());
+                this->value = value; // Update the value before calling the callback
                 events[i].callback(value); // Call the callback function
                 return;
             }

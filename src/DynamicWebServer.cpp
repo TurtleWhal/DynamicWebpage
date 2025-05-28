@@ -109,6 +109,8 @@ void DynamicWebServer::handleMessage(const String &message, AsyncWebSocketClient
           elements[i]->sendStatus();
         }
       }
+
+      send(String("{\"type\":\"loaded\"}"));
     }
     else if (event == "event")
     {

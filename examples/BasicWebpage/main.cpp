@@ -6,8 +6,8 @@
 #include <ESPmDNS.h>
 #include "Adafruit_NeoPixel.h"
 
-const char *ssid = "NetworkOfIOT";
-const char *password = "40961024";
+const char *ssid = "YOUR_SSID"; // Replace with your Wi-Fi SSID
+const char *password = "YOUR_PASSWORD"; // Replace with your Wi-Fi credentials
 
 DynamicWebServer server(80); // Create a web server on port 80
 

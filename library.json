@@ -1,0 +1,27 @@
+{
+  "name": "DynamicWebpage",
+  "version": "0.1.0",
+  "description": "A Library for creating dynamic webpages with ease.",
+  "keywords": "website, dynamic, webpage, html, css, javascript",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/TurtleWhal/DynamicWebpage.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Garrett Jordan",
+      "email": "garrettrjordan@gmail.com",
+      "url": "https://garrettjordan.xyz/about"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TurtleWhal/DynamicWebpage",
+  "dependencies": {
+    "esp32async/ESPAsyncWebServer": "~3.7.7",
+    "bblanchon/ArduinoJson": "~7.0.0"
+  },
+  "frameworks": "*",
+  "platforms": "*"
+}
